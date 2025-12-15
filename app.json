@@ -10,11 +10,11 @@
   "env": {
     "GENERIC_TIMEZONE": {
       "description": "Time Zone to use with Heroku. You can find the name of your timezone here: https://momentjs.com/timezone/",
-      "value": "Europe/Berlin"
+      "value": "Africa/Kampala"
     },
     "N8N_ENCRYPTION_KEY": {
       "description": "This is to set the n8n encryption key to a static value, so that heroku doesnt override it, causing AUTH to fail",
-      "value": "change-me-to-something-else"
+      "value": "3154d8576d312f0ca98fd799f2efa2a1"
     },
     "PGSSLMODE": {
       "description": "Heroku made a change so SSL is required to connect to Postgres",
@@ -30,7 +30,7 @@
     },
     "WEBHOOK_URLQUEUE_BULL_REDIS_TLS": {
       "description": "Your app could be published to any domain, without specifying n8n will think that it's hosted on localhost (and it could break some scenarions ",
-      "value": "https://<appname>.herokuapp.com"
+      "value": "https://n8n-auto-cloud-928819f5f1d2.herokuapp.com/"
     },
     "QUEUE_BULL_REDIS_TLS": {
       "description": "Heroku is enforcing TLS on all redis mini plans starting December 2024.",
